@@ -158,7 +158,7 @@ async def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--host", default="imiq-occ.et.uni-magdeburg.de")
     parser.add_argument("--port", type=int, default=443)
-    parser.add_argument("--path", default="/wt-vehicle?VehicleId=tugger_train")
+    parser.add_argument("--path", default="/wt-vehicle?VehicleId=delivery_robot")
     parser.add_argument("--insecure", action="store_true", default=False)
     args = parser.parse_args()
 
